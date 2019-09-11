@@ -48,3 +48,23 @@ nav ul a{
     }
     
 }
+
+@media(min-width: 768px){
+    nav ul li{
+        display: inline-block;
+        padding-bottom: 5px;
+        padding-top: 1px;
+        border-bottom: 0px;
+        margin: 10px 20px;
+        border-top: 3px solid rgb(4, 199, 140);
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav{
+        padding: 0px 10px;
+    }
+    
+}
