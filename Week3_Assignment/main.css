@@ -52,12 +52,17 @@ nav ul a{
 }
 
 
-/*---------------------MAIN-----------------------*/
+/*---------------------HOME-----------------------*/
 
 img{
     width: 250px;
     height: 250px;
     padding: 30px;
+}
+
+p{
+    text-align: left;
+    padding: 10px;
 }
 
 .floater-section{
