@@ -42,4 +42,32 @@ nav ul a{
     text-decoration: none;
     color: #212529;
     text-transform: uppercase;
+    line-height: 40px; /*for vertically*/
 }
+
+@media(min-width: 540px){
+    nav ul li{
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        margin: 10px 20px;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav{
+        padding: 0px 10px;
+    }
+
+    /*--MAIN--*/
+
+    .width-md-50{
+        width: 50%;
+    }
+
+    .width-md-33{
+        width: 33.333333%;
+    }
+} /*End of 540px breakpoint*/
