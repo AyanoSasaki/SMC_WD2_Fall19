@@ -22,15 +22,15 @@
         
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="appointment.html">Appointment</a></li>
             </ul> 
         </nav>
 
         <div class="header-top">
-            <img src="logo.png" alt="logo">
-            <h1>Los Angeles</h1>
+            <img src="logo.png" alt="logo" class="logo">
+            <h1 class="losangeles">Los Angeles</h1>
         </div>
     </header>
     <main>
@@ -44,8 +44,8 @@
         </div>
         <form action="" method="GET">
             <fieldset>
-                <label for="Menu">Service</label>
-                <select moltiple name="menu" id="service">
+                <label for="Menu">Service:</label>
+                <select moltiple name="menu" class="select">
                     <option value="CUT">Cut</option>
                     <option value="CLR">Color</option>
                     <option value="RT">Retouch</option>
@@ -63,11 +63,11 @@
                 </select>
             </fieldset>
             <fieldset>
-                <input type="date" name="date">
+                <input type="date" name="date" class="date">
             </fieldset>
             <fieldset>
-                <label for="Time">Time</label>
-                <select moltiple name="time" id="time">
+                <label for="Time">Time:</label>
+                <select moltiple name="time" class="select">
                     <option value="10am">10:00am</option>
                     <option value="1030am">10:30am</option>
                     <option value="11am">11:00am</option>
@@ -84,7 +84,9 @@
                     <option value="430pm">4:30pm</option>
                 </select>
             </fieldset>
-            <input class="button" type="submit" value="Submit">
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
         </form>
     </main>
     

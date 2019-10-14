@@ -1,5 +1,5 @@
 header{
-    background-color: #fdf9f4;
+    background-color: white;
 }
 
 header input#toggler{
@@ -20,6 +20,9 @@ nav{
     background-color: #8C6C5A;
     padding: 20px 10px;
     display: none;
+    position: absolute;
+    z-index: 2;
+    width:96%;
 }
 
 nav ul{
@@ -56,12 +59,16 @@ nav ul a{
     }
 
     nav ul{
-        text-align: center;
+        text-align: right;
     }
 
     nav{
         padding: 0px;
         display: block;
+        width: 100%;
+        position: absolute;
+        opacity: 0.8;
+        z-index: 3;
     }
 
     header label img{
