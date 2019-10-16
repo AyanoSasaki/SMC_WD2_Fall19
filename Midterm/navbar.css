@@ -1,5 +1,5 @@
 header{
-    background-color: white;
+    background-color: #D8D8D8;
 }
 
 header input#toggler{
@@ -59,7 +59,7 @@ nav ul a{
     }
 
     nav ul{
-        text-align: right;
+        text-align: center;
     }
 
     nav{

@@ -1,7 +1,8 @@
 .floater-section{
     float: left;
-    min-height: 275px;
+    min-height: 203px;
     width: 100%;
+    background-color: #D8D8D8;
 }
 
 .container{
@@ -14,8 +15,16 @@
     display: block;
 }
 
+.content{
+    text-align: center;
+}
+
+.third-content{
+    text-align: center;
+}
+
 main{
-    background-color: #e0dcd9;
+    background-color: #D8D8D8;
 }
 
 body{
@@ -35,12 +44,21 @@ img{
     font-size: 10px;
 }
 
+.home-right{
+    background-color: #A59C6F;
+}
+
+.home-left{
+    margin-bottom: -6px;
+}
+
 .header-coment{
     position: absolute;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
-    top: 125px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     text-align: center;
     text-shadow: 1px 1px 1px #59432F;
@@ -86,7 +104,7 @@ h4{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1.5px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     color: #59432F;
 }
 
@@ -94,6 +112,24 @@ h5{
     font-family: 'Abel', sans-serif;
     letter-spacing: 1.5px;
     font-weight: bold;
+}
+
+.lookgood{
+    color: white;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -3px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.yousmile{
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
 p{
@@ -125,6 +161,11 @@ p{
 
 .header-top{
     text-align: center;
+}
+
+.header-top-home{
+    margin-bottom: -6px;
+    position: relative;
 }
 
 .content{
@@ -171,7 +212,7 @@ fieldset{
 }
 
 .menu-layout1{
-    margin-bottom: -175px;
+    margin-bottom: -108px;
     text-align: center;
     position: relative;
 }
@@ -219,7 +260,7 @@ fieldset{
 }
 
 .menu-cut{
-    font-size: 21px;
+    font-size: 28px;
     font-family: 'Abel', sans-serif;
     letter-spacing: 1.5px;
     text-align: center;
@@ -241,11 +282,31 @@ label{
     color: #724339;
 }
 
+footer{
+    background-color: #8C6C59;
+}
+
+.sns{
+    text-align: center;
+}
+
+.instagram{
+    width: 35px;
+    height: auto;
+    margin: 10px 5px 0px;
+}
+
+.copyright{
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
 
 /* MEDIUM SIZE SCREENS */
 @media(min-width: 540px){
     .floater-section{
-        min-height: 350px;
+        min-height: 400px;
     }
 
     th{
@@ -262,22 +323,19 @@ label{
     }
 
     .header-coment{
-        top: 170px;
+        top: 58%;
         padding: 10px 0px;
-    }
-
-    .cair{
-        margin: 40px auto;
     }
 
     .salon2{
         position: relative;
+        width: 100%;
     }
 
     h2{
         font-size: 42px;
         letter-spacing: 10px;
-        margin: 149px auto;
+        top: 41%;
     }
 
     h3{
@@ -304,24 +362,44 @@ label{
         font-size: 18px;
     }
 
+    .lookgood {
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: -1px;
+        text-align: left;
+    }
+
+    .yousmile{
+        font-size: 15px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .phrase{
+        margin-left: 10px;
+    }
+
     .menu{
         font-size: 15px;
     }
 
-    .menu-img{
+    /* .menu-img{
         width: 100%;
-    }
+    } */
 
     .menu-title1 {
         margin: -105px 154px auto;
+        z-index: 2;
     }
 
     .menu-title2{
         margin: -105px 118px auto;
+        z-index: 2;
     }
 
     .menu-title3{
         margin: -105px 38px auto;
+        z-index: 2;
     }
 
     .menu-cut{
@@ -342,6 +420,10 @@ label{
 
     .menu-img{
         padding: 10px;
+    }
+
+    .copyright{
+        padding: 20px;
     }
 
     .width-md-25{
@@ -368,12 +450,11 @@ label{
 /* LARGE SIZE SCREENS */
 @media(min-width: 800px){
     .container{
-        width: 790px;
         margin: auto;
     }
 
     .floater-section{
-        min-height: 560px;
+        min-height: 720px;
     }
 
     table{
@@ -381,17 +462,11 @@ label{
     }
 
     .header-coment{
-        top: 225px;
         padding: 30px 0px;
-    }
-
-    .info{
-        margin: 50px auto;
     }
 
     h2{
         font-size: 60px;
-        margin: 177px auto;
     }
 
     .menu-title1{
@@ -415,6 +490,17 @@ label{
 
     .menu{
         font-size: 21px;
+    }
+
+    .lookgood {
+        font-size: 77px;
+        line-height: 85px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .yousmile {
+        font-size: 24px;
     }
 
     .width-lg-25{
