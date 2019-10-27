@@ -17,10 +17,16 @@
 
 .content{
     text-align: center;
+    height: 400px;
+    background-size: cover;
+    background-image: url(blackandwhite.jpg);
 }
 
 .third-content{
     text-align: center;
+    height: 420px;
+    background-size: cover;
+    background-image: url(dryer.jpg);
 }
 
 main{
@@ -112,12 +118,15 @@ h5{
     font-family: 'Abel', sans-serif;
     letter-spacing: 1.5px;
     font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
 }
 
 .lookgood{
     color: white;
     font-size: 4em;
-    line-height: 77px;
+    line-height: 1.3em;
     letter-spacing: -3px;
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
@@ -138,6 +147,7 @@ p{
     line-height: 30px;
     color: #3a3939;
     text-align: center;
+    margin: 10px;
 }
 
 .information-pic{
@@ -171,7 +181,6 @@ p{
 .content{
     padding: 10px;
     text-align: center;
-    margin-bottom: 80px;
 }
 
 .title{
@@ -266,6 +275,14 @@ fieldset{
     text-align: center;
 }
 
+.menu-color{
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 25px 10px 0px;
+}
+
 label{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1.5px;
@@ -306,7 +323,7 @@ footer{
 /* MEDIUM SIZE SCREENS */
 @media(min-width: 540px){
     .floater-section{
-        min-height: 400px;
+        min-height: 420px;
     }
 
     th{
@@ -346,7 +363,7 @@ footer{
     }
 
     h4{
-        margin: 70px 0px 10px 0px;
+        margin: 6px 10px 10px 0px;
         font-family: 'Ubuntu', sans-serif;
         letter-spacing: 1.5px;
         text-align: center;
@@ -363,20 +380,25 @@ footer{
     }
 
     .lookgood {
-        font-size: 42px;
-        line-height: 49px;
         letter-spacing: -1px;
         text-align: left;
+        line-height: 0.8em;
+        margin: 45px 0px;
     }
 
     .yousmile{
-        font-size: 15px;
+        font-size: 18px;
         text-align: left;
         margin: 0px;
     }
 
     .phrase{
         margin-left: 10px;
+    }
+
+    .phone-number{
+        text-align: center;
+        margin: 10px;
     }
 
     /* .menu-img{
@@ -418,6 +440,13 @@ footer{
         padding: 10px;
     }
 
+    .menu-color{
+        font-size: 1.5em;
+        font-family: 'Abel', sans-serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
     .copyright{
         padding: 20px;
     }
@@ -450,7 +479,8 @@ footer{
     }
 
     .floater-section{
-        min-height: 720px;
+        min-height: 420px;
+        top: 80px;
     }
 
     table{
@@ -465,19 +495,29 @@ footer{
         font-size: 60px;
     }
 
+    h4{
+        margin: 40px 0px 10px 0px;
+    }
+
     .menu-title1{
         font-size: 120px;
-        margin: -175px 239px auto;
+        bottom: 10%;
+        right: -20%;
     }
 
     .menu-title2{
         font-size: 110px;
-        margin: -163px 174px auto;
+        bottom: 10%;
+        right: -15%;
     }
 
     .menu-title3{
         font-size: 85px;
-        margin: -140px 78px auto;
+        bottom: 10%;
+        right: -4%;
+    }
+    .menu{
+        padding: 8px;
     }
 
     .menu-cut{
@@ -485,14 +525,17 @@ footer{
     }
 
     .lookgood {
-        font-size: 77px;
-        line-height: 85px;
         letter-spacing: 0px;
         text-align: left;
+        line-height: 67px;
     }
 
     .yousmile {
         font-size: 24px;
+    }
+
+    .guarantee{
+        margin: 94px 20px 0px;
     }
 
     .width-lg-25{
