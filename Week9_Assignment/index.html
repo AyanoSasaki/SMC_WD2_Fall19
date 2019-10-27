@@ -15,8 +15,62 @@
 
     <main>
         <div id="contentMain">
-            <h1>Hello, World!</h1>
+            <h1>Happy Halloween!</h1>
         </div>
+
+        <style>
+            .dropbtn {
+              background-color: rgb(245, 162, 38);
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .dropbtn:hover, .dropbtn:focus {
+              background-color: rgb(248, 187, 95);
+            }
+            
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: purple;
+              min-width: 160px;
+              overflow: auto;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            
+            .dropdown-content a {
+              color: white;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown-content a:hover {background-color: rgb(133, 64, 133)}
+            
+            .show {display:block;}
+            </style>
+            </head>
+            <body>
+            
+            <div class="dropdown">
+              <button id="myBtn" class="dropbtn">Menu</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#coustume">Costume</a>
+                <a href="#accessory">Accsessory</a>
+                <a href="#event">Event</a>
+              </div>
+            </div>
+        
+        <p id="resizable">Too small?</p>
+        <button type="button" onclick="larger()">Bigger</button>
     </main>
 
     <footer>
@@ -43,7 +97,16 @@
 
         document.getElementById("contentMain").style.backgroundColor = "rgb(255,0,0)";
 
-        alert("This is our very first JavaScript written!")
+        alert("Happy Halloween!")
+
+        document.getElementById("myBtn").onclick = function() {myFunction()};
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+       
+        var letterSize = 100;
+        function larger()  { letterSize *= 1.2; document.getElementById('resizable').style.fontSize = letterSize + '%'; }
+        function smaller() { letterSize /= 1.2; document.getElementById('resizable').style.fontSize = letterSize + '%'; }
     </script>
 </body>
 </html>
