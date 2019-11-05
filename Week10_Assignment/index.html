@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="navbar.css">
+
+    <title>Week10_Assignment</title>
+</head>
+<body>
+    <header>
+        <label for="toggler" >
+            <img src="scissors_closed.png" id="imageToSwitch" alt="scissors_closed">
+                <!-- <button id="imgToggle">Switch!</button> -->
+        </label>
+        <input type="checkbox" id="toggler">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="appointment.html">Appointment</a></li>
+            </ul> 
+        </nav>
+
+        <section>
+            <form action="" method="GET">
+                <select id="location">
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York">New York</option>
+                </select>
+
+                <p id="address">
+                    
+                </p>
+
+            </form>
+        </section>
+    </header> 
+    <script>
+        var image2URL = "scissors_open.png";
+        var image2Alt = "Opened scissors";
+        var switchingImage = document.getElementById("imageToSwitch");
+
+        var image1URL = switchingImage.src;
+        var image1Alt = switchingImage.alt;
+
+        document.getElementById('imgToggle').addEventListener('click', function(){
+
+            console.log(image1URL);
+
+            if　( switchingImage.src === image2URL ){
+                switchingImage.src = image1URL;
+                switchingImage.alt = image1Alt;
+            }
+            else {
+                switchingImage.src = image2URL;
+                switchingImage.art = image2Alt;
+            }
+            
+        })
+        var locationSelect = document.getElementById('location');
+        var addressSelect = document.getElementById('address');
+
+        locationSelect.addEventListener('change', function(){
+            console.log(locationSelect.value);
+            
+            if(locationSelect.value === 'Los Angeles'){
+                addresslSelect.innerHTML = '11301 W Olympic Blvd suite 108 & 109, Los Angeles CA, 90064';
+            }
+            if(locationSelect.value === 'New York'){
+                addresslSelect.innerHTML = '15 East 12 Street, 2nd floor , New York , NY';
+            }
+        })
+    </script>
+</body>
+</html>
