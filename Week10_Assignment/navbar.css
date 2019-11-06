@@ -2,11 +2,11 @@ header{
     background-color: white;
 }
 
-header input#toggler{
+header input#imgToggler{
     display: none;
 }
 
-input#toggler:checked + nav{
+input#imgToggler:checked + nav{
     display: block;
 }
 
