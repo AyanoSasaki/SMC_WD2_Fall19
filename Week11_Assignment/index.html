@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week11_Assignment</title>
+
+    <style>
+        img{
+            height: 200px;
+        }
+
+        h1{
+            font-weight: bold;
+            font-size: 15px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button role="button" class="button-clone">Clone!</button>
+    </div>
+    <h1>Your Cart</h1>
+    <div class="item">
+        <p>Dyson V7 Motorhead Origin Cord-free Vacuum - 282961-01<br>$199.99 Sale</p>
+        <img src="https://target.scene7.com/is/image/Target/GUEST_9007744a-6b5e-4914-8b6b-98fde38304d5?fmt=webp&wid=1400&qlt=80">
+    </div>
+    <div>
+        <button role="button" class="button-remove">Remove</button>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $('.button-clone').click(function (){
+            $(this).clone(true).insertAfter(this);
+        });
+
+        $(function() {
+            $('.button-remove').click(function() {
+                $('.item').remove();
+            });
+        });
+    </script>
+</body>
+</html>
