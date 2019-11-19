@@ -22,8 +22,8 @@ $(document).ready(function(){
         if(currentSelection === 'fadeIn'){
             $('.box').fadeIn(1000);
         }
-        if(currentSelection === 'fadeout'){
-            $('.box').fadeout(1000);
+        if(currentSelection === 'fadeOut'){
+            $('.box').fadeOut(1000);
         }
         if(currentSelection === 'slideDown'){
             $('.box').slideDown(1000);
