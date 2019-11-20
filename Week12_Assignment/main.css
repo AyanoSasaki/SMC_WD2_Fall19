@@ -1,0 +1,52 @@
+main{
+    margin: 0px;
+}
+
+.floater-section{
+    float: left;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.527);
+    margin: 0px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 22px;
+}
+
+p {
+    display: none;
+    font-size: 13px;
+}
+
+.content {
+    margin: 2px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 350px;
+}
+
+.container{
+    height: 500px;
+}
+
+@media(min-width: 540px){
+    .width-md-33{
+        width: 33.3333333%;
+    }
+
+@media(min-width: 800px){
+    .width-md-33{
+        width: 33.3333333%;
+    }
