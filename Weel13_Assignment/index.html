@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week13_Assignment</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="westelm_logo.png" class="logo" alt="westelm_logo">
+            <a class="flex-item" href="furniture.html">Furniture</a>
+            <a class="flex-item" href="bedding.html">Bedding</a>
+            <a class="flex-item" href="bath.html">Bath</a>
+            <a class="flex-item" href="rugs.html">Rugs</a>
+        </div>
+    </header>
+    <main>
+        <div class="flex-content">
+            <div class="fourty-percent_off">
+                <img src="https://www.westelm.com/weimgs/ab/images/wcm/products/201940/1025/img69o.jpg" alt="40%off">
+                <h1>Up to 40% off</h1>
+                <p>Bedding, rugs, pillows & more</p>
+            </div>
+            <div class="twenty-five-percent_off">
+                <img src="https://www.westelm.com/weimgs/ab/images/wcm/products/201940/0354/staggered-glass-8-light-chandelier-metallic-ombre-38-q.jpg" alt="25%off">
+                <h1>25% off</h1>
+                <p>25% off lighting</p>
+            </div>
+            <div class="thirty-percent_off">
+                <img src="https://www.westelm.com/weimgs/ab/images/wcm/products/201940/0542/smeg-full-size-refrigerator-q.jpg" alt="30%off">
+                <h1>30% off</h1>
+                <p>30% off kitchin & dining</p>
+            </div>
+            <div class="fifty-percent_off">
+                <img src="https://www.westelm.com/weimgs/ab/images/wcm/products/201940/0477/faux-fur-ombre-throws-o.jpg" alt="50%off">
+                <h1>50% off</h1>
+                <p>50% off throws</p>
+            </div>
+            <div class="seventy-percent_off">
+                <img src="https://d28m5bx785ox17.cloudfront.net/v1/img/ed6cjQKCCtONrAu4_a9bOlcc7JPBQQwTAiOsJ72pCDA=/d/l" alt="40%off">
+                <h1>Up to 70% off</h1>
+                <p>Cleaance</p>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".logo").click(function(){
+            $(".flex-item").slideToggle();
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,147 @@
+header{
+    background-color: #D0E9F2;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.flex-item{
+    display: none;
+    margin: 10px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: #401801;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.flex-content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo{
+    width: 130px;
+    margin: auto;
+    padding: 15px;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+.background{
+    max-width: 100%;
+}
+
+img{
+   width: 100%; 
+}
+
+h1{
+    font-family: 'Calistoga', cursive;
+    padding-left: 10px;
+    color: #b3190d;
+}
+
+h2{
+    font-family: 'Calistoga', cursive;
+    margin: 10px;
+    text-align: center;
+    color: #BF6C3B;
+}
+
+p{
+    padding: 0px 0px 25px 10px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 17px;
+    color: #A64E2E;
+}
+
+@media(min-width: 540px){
+    .navbar{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        height: 85px;
+        align-content: space-around;
+    }
+
+    .logo{
+        width: 130px;
+        margin: 0px;
+        padding: 15px;
+    }
+
+
+    .flex-item{
+        display: block;
+        font-size: 22px;
+    }
+
+    .flex-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flex-item:nth-child(2){
+        order: 1;
+    }
+    
+    .flex-item:nth-child(3){
+        order: 2;
+    }
+    
+    .logo:nth-child(1){
+       order: 3;
+    }
+    
+    .flex-item:nth-child(4){
+        order: 4;
+    }
+    
+    .flex-item:nth-child(5){
+        order: 5;
+    }
+
+    .fourty-percent_off{
+        flex-grow: 1;
+        order: 6;
+        width: 33.3333%;
+    }
+
+    .twenty-five-percent_off{
+        flex-grow: 1;
+        order: 7;;
+        width: 33.3333%;
+    }
+
+    .thirty-percent_off{
+        flex-grow: 1;
+        order: 8;
+        width: 33.3333%;
+    }
+
+    .fifty-percent_off{
+        flex-grow: 1;
+        order: 9;
+        width: 25%;
+    }
+
+    .seventy-percent_off{
+        flex-grow: 2;
+        order: 10;
+        width: 25%;
+    }
+}
