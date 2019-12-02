@@ -1,0 +1,301 @@
+body{
+    margin: 0px;
+}
+
+main{
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.dog_pic_main{
+    width: 100%;
+}
+
+header{
+    background-color: black;
+}
+
+.logo{
+    height: 68px;
+}
+
+.dog{
+    text-align: right;
+}
+
+.dog-icon{
+    width: 37px;
+    margin: 15px;
+}
+
+.logo-original{
+    width: 18%;
+    margin: 13px 0px 13px 224px;
+}
+
+.flex-item{
+    display: none;
+    margin: 10px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.navlinks{
+    background: -webkit-linear-gradient(0deg, #D95877, #F0A167);
+    margin: 0;
+    z-index: 1;
+}
+
+ul{
+    background-color: pink;
+    list-style: none;
+}
+
+h1{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #F0A167, #D95877);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    font-size: 2.5em;
+    right: 3%;
+    text-align: right;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: -1px;
+    top: 10%;
+}
+
+h2{
+    text-transform: uppercase;
+    position: absolute;
+    margin: 10px;
+    top: 22%;
+    color: white;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 1.5px;
+    font-size: 37px;
+    text-shadow: 3px 2px 1px #59432F;
+}
+
+h3{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    color: #F0A167;
+    margin: 20px;
+}
+
+h4{
+    margin: -4px 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #4b4d98;
+    padding: 10px;
+}
+
+h5{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    color: #4b4d98;
+    text-align: right;
+    margin: 0 20px;
+}
+
+p{
+    font-size: 2px;
+    color: white;
+    margin: 0px;
+}
+
+footer{
+    background: -webkit-linear-gradient(0deg, #F0A167, #D95877);
+    height: 67px;
+    margin: 0px;
+}
+
+.footer p{
+    font-family: 'Sulphur Point', sans-serif;
+    margin-top: 5px;
+}
+
+.footer img{
+    width: 25px;
+    margin: 10px 10px 0px 10px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.about-top img{
+    width: 100%;
+}
+
+.blog-top img{
+    width: 100%;
+}
+
+.running_puppy{
+    width: 100%;
+}
+
+.chihuahua{
+    width: 100%;
+}
+
+.golden-shower{
+    width: 100%;
+}
+
+.snoopy{
+    width: 100%;
+}
+
+.golden_sunset{
+    width: 100%;
+}
+
+.blog-middle img{
+    width: 90%;
+    margin: 17px 17px 0;
+}
+
+.about-middle p{
+    color: white;
+    margin: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+}
+
+.about-middle p::first-letter{
+    font: 900 36px "Arial Black", Gadget, sans-serif;
+    color: #D95877;
+}
+
+.about-middle2 p{
+    color: white;
+    margin: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+}
+
+.about-middle3  li{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.about-middle3 p{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.about-middle4 p{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.about-middle5 p{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.about-middle6 p {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.about-middle6{
+    height: 1050px;
+}
+
+.about-middle6 h3{
+    color: #C16B55;
+    font-size: 21px;
+}
+
+.blog-top h2{
+    letter-spacing: 3px;
+    font-size: 45px;
+}
+
+.blog-middle{
+    
+}
+
+.box{
+    background: -webkit-linear-gradient(top left, #695784, #f19da7);
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.text-box{
+    background-color: white;
+    margin: 0 17px;
+    padding-bottom: 20px;
+}
+
+.text-box p{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    margin: 12px 20px;
+}
+
+.a-p{
+    display: none;
+}
+
+.b-p{
+    display: none;
+}
+
+.c-p{
+    display: none;
+}
+
+
+
+
+@media(min-width: 540px){
+    .blog-middle{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 10px;
+        color: #444;
+    }
+    
+    .box {
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+}

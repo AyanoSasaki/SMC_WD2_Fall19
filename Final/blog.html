@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="dog-seating.png" alt="dog_seating" class="dog-icon">
+                <a href="index.html"><img src="logo.png" alt="logo" class="logo-original"></a>
+            </div>
+            <ul class="navlinks">
+                <li>
+                    <a class="flex-item" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="flex-item" href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a class="flex-item" href="donation.html">Donate</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <dvi class="blog-top">
+            <img src="walking_doodle.jpg" alt="walking_doodle" class="walking_doodle">
+            <h2>blog</h2>
+        </dvi>
+        <div class="blog-middle">
+            <div class="box a">
+                <img src="MPM.jpg" alt="mpm">
+                <div class="text-box">
+                    <h4>Sophanne Needs Help to Fight Cancer!</h4>
+                    <h5>October 20, 2019</h5>
+                    <div class="a-p">
+                        <p>Our sweet senior Miniature Pinscher mix, Sophanne needs our help! We rescued Sophanne in December after she spent weeks on the cold shelter floor. She was passed over because she was older and had a mass on her muzzle.</p>
+                        <p>Shortly after we rescued her, vets removed the mass. However, it has returned and is cancerous. After testing and consultation, the oncologist believes Sophanne’s cancer can be treated and she has a great shot to beat this!</p>
+                        <p>But treatment won’t come cheap, WE NEED HELP! We are starting a GoFundMe campaign to help Sophanne beat this cancer! If you are unable to donate, please share this post or our GoFundMe campaign. Every little bit counts!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box b">
+                <img src="Teriyaki2.jpg" alt="Teriyaki2">
+                <div class="text-box">
+                    <h4>Teriyaki Spices Up Her New Home</h4>
+                    <h5>August 11, 2019</h5>
+                    <div class="b-p">
+                        <p>We love getting updates from our adopters, especially when they have a multiple Much Love pack! Here’s one from our beautiful Teriyaki’s—now Savannah’s—new family.</p>
+                        <p>Hi! I thought you’d like an update, as you can see Savannah gets along great with Stella aka Ida my other rescue from you. The two spend hours playing together and Savannah idolizes Stella. She is a joy and we are so glad we got to adopt her!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box c">
+                <img src="Rachel-and-Harriet.jpg" alt="Rachel-and-Harriet">
+                <div class="text-box">
+                    <h4>Fostering an Animal: Instant Love</h4>
+                    <h5>May 29, 2019</h5>
+                    <div class="c-p">
+                        <p>Friend of Much Love George Hobbs wrote this beautiful essay on how fostering for an animal rescue (George was a wonderful foster for Much Love for many years) is a way to give love and get love. A perfect thought as we walk into 2014 with our four-legged friends! You can find this and George’s other brilliant musings on his blog, Hobbs in Babylon. And click here if you’re interested in fostering for Much Love in 2014!.</p>
+                        <p>As another new year dawns, many of us are making resolutions, and fantasizing about how this one is going to be different. “2014 will be the year when I find love, happiness and a sense of fulfillment in my life,” we say to ourselves. “This year, I’m going to give something back. I’m going to do my small part, to make this world a better place.”</p>
+                        <p>Are you saying that this year? Is your resolution to reduce stress, bring your blood pressure down, or improve your overall quality of life? Or would you simply like to come home after a long day, and find someone there who is genuinely happy to see you?</p>
+                        <p>If so, I have the resolution you are looking for, and it won’t cost you a penny. All you have to do is add water.</p>
+                        <p>Are you ready? Foster a pet. I didn’t say adopt, I said foster, a cat or dog.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="instagram.png" alt="instagram" class="instagram">
+            <img src="facebook.png" alt="facebook" class="facebook">
+            <img src="twitter-sign.png" alt="twitter" class="twitter">
+            <img src="youtube.png" alt="youtube" class="youtube">
+            <p>© 2019 Much Love Animal Rescue</p>
+        </div>
+    </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".logo").click(function(){
+            $(".flex-item").slideToggle();
+        });
+    });
+
+    $(document).ready(function(){
+        $(".a").click(function(){
+            $(".a-p").toggle();
+        });
+    });
+
+    $(document).ready(function(){
+        $(".b").click(function(){
+            $(".b-p").toggle();
+        });
+    });
+
+    $(document).ready(function(){
+        $(".c").click(function(){
+            $(".c-p").toggle();
+        });
+    });
+</script>
+</html>

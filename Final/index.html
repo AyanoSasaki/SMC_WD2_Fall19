@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="dog-seating.png" alt="dog_seating" class="dog-icon">
+                <a href="index.html"><img src="logo.png" alt="logo" class="logo-original"></a>
+            </div>
+            <ul class="navlinks">
+                <li>
+                    <a class="flex-item" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="flex-item" href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a class="flex-item" href="donation.html">Donate</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <h1>Life without</br>a rescue dog</br>NO WAY</h1>
+            <img src="dog_black_ver.jpg" alt="dog_black_ver" class="dog_pic_main">
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="instagram.png" alt="instagram" class="instagram">
+            <img src="facebook.png" alt="facebook" class="facebook">
+            <img src="twitter-sign.png" alt="twitter" class="twitter">
+            <img src="youtube.png" alt="youtube" class="youtube">
+            <p>© 2019 Much Love Animal Rescue</p>
+        </div>
+    </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".logo").click(function(){
+            $(".flex-item").slideToggle();
+        });
+    });
+</script>
+</html>
