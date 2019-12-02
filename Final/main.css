@@ -126,6 +126,7 @@ footer{
 .footer p{
     font-family: 'Sulphur Point', sans-serif;
     margin-top: 5px;
+    font-size: 11px;
 }
 
 .footer img{
@@ -142,6 +143,10 @@ footer{
 }
 
 .blog-top img{
+    width: 100%;
+}
+
+.donation-top img{
     width: 100%;
 }
 
@@ -280,6 +285,10 @@ footer{
 
 .c-p{
     display: none;
+}
+
+.donation-top h2{
+    letter-spacing: 0px;
 }
 
 
