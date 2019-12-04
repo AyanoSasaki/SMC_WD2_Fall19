@@ -4,7 +4,6 @@ body{
 
 main{
     background-color: black;
-    padding-bottom: 10px;
 }
 
 .dog_pic_main{
@@ -253,7 +252,7 @@ footer{
 }
 
 .blog-middle{
-    
+    padding-bottom: 10px;
 }
 
 .box{
