@@ -3,21 +3,27 @@ $(document).ready(function(){
         $(".navlinks").slideToggle();
     });
 
-    $(".a").click(function(){
+    $(".aa").click(function(){
         $(".a-p").toggle();
     });
         
-    $(".b").click(function(){
-            $(".b-p").toggle();
+    $(".bb").click(function(){
+        $(".b-p").toggle();
     });
         
-    $(".c").click(function(){
-            $(".c-p").toggle();
+    $(".cc").click(function(){
+        $(".c-p").toggle();
     });
-    
+
+    $(".dd").click(function(){
+        $(".d-p").toggle();
+    }); 
+
+    $(".ee").click(function(){
+        $(".e-p").toggle();
+    });
+
     $(".donatebutton").on('click', function () {
         alert("You're PAWSOME!");
     });
-
-    // // // alert("You're PAWSOME!")
 });

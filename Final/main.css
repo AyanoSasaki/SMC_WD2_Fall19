@@ -15,7 +15,7 @@ header{
 }
 
 .logo{
-    height: 68px;
+    margin: 20px;
 }
 
 .dog{
@@ -24,7 +24,6 @@ header{
 
 .dog-icon{
     width: 37px;
-    margin: 15px;
 }
 
 .logo-original{
@@ -35,11 +34,16 @@ header{
 .company-logo{
     text-align: right;
     display: inline-block;
+    padding-left: 78px;
+}
+
+.dogs_black_and_white{
+    display: none;
 }
 
 .flex-item{
     margin: 10px;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
     color: white;
     font-size: 17px;
     letter-spacing: 1px;
@@ -51,13 +55,15 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
+    width: 100%;
 }
 
 .navlinks{
     background: linear-gradient( #D95877, #F0A167);
-    margin: 0;
+    margin: 0 0 0 -35px;
     z-index: 1;
     display: none;
+    text-align: center;
 }
 
 .navlinks li{
@@ -65,13 +71,12 @@ nav{
 }
 
 ul{
-    background-color: pink;
     list-style: none;
 }
 
 h1{
     color: #ACB6E5;
-    background: -webkit-linear-gradient(0deg, #F0A167, #D95877);
+    background: linear-gradient(0deg, #F0A167, #D95877);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
@@ -91,7 +96,7 @@ h2{
     color: white;
     font-family: 'Passion One', cursive;
     letter-spacing: 1.5px;
-    font-size: 37px;
+    font-size: 8vw;
     text-shadow: 3px 2px 1px #59432F;
 }
 
@@ -124,14 +129,14 @@ p{
 }
 
 footer{
-    background: -webkit-linear-gradient(0deg, #F0A167, #D95877);
-    height: 67px;
+    background: linear-gradient(90deg, #F0A167, #D95877);
     margin: 0px;
+    text-align: center;
 }
 
 .footer p{
     font-family: 'Sulphur Point', sans-serif;
-    margin-top: 5px;
+    margin: 15px;
     font-size: 11px;
 }
 
@@ -142,10 +147,16 @@ footer{
 
 .footer{
     text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.about-top{
+    display: flex;
 }
 
 .about-top img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .blog-top img{
@@ -154,6 +165,10 @@ footer{
 
 .donation-top img{
     width: 100%;
+}
+
+.donate-button1{
+    color: #f0a067;
 }
 
 .running_puppy{
@@ -177,7 +192,7 @@ footer{
 }
 
 .blog-middle img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .about-middle p{
@@ -192,15 +207,6 @@ footer{
 .about-middle p::first-letter{
     font: 900 36px "Arial Black", Gadget, sans-serif;
     color: #D95877;
-}
-
-.about-middle2 p{
-    color: white;
-    margin: 18px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.4px;
-    line-height: 1.4;
 }
 
 .about-middle3  li{
@@ -252,9 +258,17 @@ footer{
     font-size: 21px;
 }
 
+.about-middle7 p{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
 .blog-top h2{
     letter-spacing: 3px;
-    font-size: 45px;
+    font-size: 11vw;
 }
 
 .blog-middle{
@@ -265,6 +279,7 @@ footer{
     background: #ef9f67;
     padding: 20px;
     border-bottom: 2px solid;
+    display: grid;
 }
 
 .text-box{
@@ -280,15 +295,11 @@ footer{
     padding-bottom: 20px;
 }
 
-.a-p{
-    display: none;
-}
-
-.b-p{
-    display: none;
-}
-
-.c-p{
+.a-p,
+.b-p,
+.c-p,
+.d-p,
+.e-p{
     display: none;
 }
 
@@ -313,7 +324,7 @@ footer{
     position: relative;
     margin: 60px auto 90px;
     padding-top: 12px;
-	padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 
 .title{
@@ -323,20 +334,6 @@ footer{
     color: white;
     padding-top: 12px;
 	padding-bottom: 12px;
-}
-
-.donate-button {
-	background: #ef9f67;
-	width: 171px;
-	color: white;
-	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	font-size: 18px;
-	bottom: 0px;
-	margin: 25px auto;
-	cursor: pointer;
-	font-weight: 800;
 }
 
 .donate-button p{
@@ -428,22 +425,44 @@ footer{
 }
 
 .donatebutton{
-    font-size: 18px;
-    font-family: 'Maven Pro', sans-serif;
     color: white;
     text-transform: uppercase;
+    margin: 40px;
+    padding: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #ef9f67;
+    font-size: 20px;
 }
 
 .main_donation{
     height: 800px;
 }
 
+.readmore{
+    display: none;
+}
+
 
 @media(min-width: 540px){
+    .logo{
+        width: 100%;
+        margin: 40px;
+    }
+    
+    .logo-original {
+        width: 45%;
+    }
+
+    .dog_pic_main{
+        width: 50%;
+    }
+    
     .blog-middle{
         display: grid;
-        grid-template-columns: 100px 100px 100px;
+        grid-template-columns: 50% 25% 25%;
+        grid-template-rows: 50% 50%;
         grid-gap: 10px;
+        padding: 54px 150px;
         color: #444;
     }
     
@@ -452,4 +471,231 @@ footer{
         color: black;
         padding: 20px;
     }
+
+    .dog-icon{
+        display: none;
+    }
+
+    .company-logo{
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+    }
+
+    .navlinks{
+        flex-direction: row;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        background: none;
+    }
+
+    .navlinks li {
+        margin: 0px 40px;
+    }
+
+    .flex-item{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        text-shadow: 1px 2px 1px black;
+        position: relative;
+    }
+
+    .flex-item:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #FFF;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .flex-item:hover:before {
+        visibility: visible;
+        width: 100%;
+      }
+
+    .flex-item:nth-child(1){
+        order: 1;
+    }
+    
+    .flex-item:nth-child(2){
+        order: 2;
+    }
+
+    .flex-item:nth-child(3){
+        order: 3;
+    }
+
+    h1{
+        letter-spacing: 0px;
+        font-size: 5vw;
+    }
+
+    h2{
+        margin: 45px;
+    }
+
+    .main h1{
+        top: 30%;
+    }
+
+    .footer p{
+        font-size: 20px;
+    }
+
+    .footer img {
+        width: 30px;
+        margin: 20px;
+    }
+
+    .dogs_black_and_white{
+        display: block;
+        width: 100%;
+    }
+
+    .width-md-50{
+        width: 50%;
+        float: left;
+    }
+
+    .am{
+        width: 100%;
+    }
+
+    .am::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+    .about-middle p{
+        margin: 128px;
+        font-size: 1.3vw;
+    }
+
+    .goals{
+        padding: 30px;
+    }
+
+    .am3{
+        display: flex;
+        align-items: center;
+    }
+
+    .running_puppy, 
+    .golden-shower,
+    .golden_sunset{
+        order: 2;
+    }
+
+    .goals,
+    .wwdi,
+    .wwd,
+    .hwdi,
+    .found{
+        margin: 30px;
+    }
+
+    .about-middle6{
+        height: auto;
+    }
+
+    .aa{
+        grid-column: 1 / 2 ;
+        grid-row: 1 / 3;
+    }
+
+    .bb{
+        grid-column: 2 / 3 ;
+        grid-row: 1 / 2 ;
+    }
+
+    .cc{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .dd{
+        grid-column: 2 / 3 ;
+        grid-row: 2 / 3 ;
+    }
+
+    .ee{
+        grid-column: 3 /4 ;
+        grid-row: 2 / 3 ;
+    }
+
+    .a-p{
+        display: block;
+    }
+
+    .donation-container{
+        text-align: center;
+        padding: 40px 40px 150px;
+    }
+
+    .donation-box{
+        display: inline-block;
+    }
+
+    .main_donation{
+        height: auto;
+    }
+
+    .amount{
+        grid-gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .donate-button{
+        margin-bottom: 20px;
+    }
+
+    .donatebutton{
+        padding: 20px 80px;
+        font-size: 25px;
+    }
+
+    h6{
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 30px;
+        color: #F0A167;
+        display: inline-block;
+        margin: 0 128px;
+    }
+
+    .readmore{
+        display: block;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 13px;
+        color: #4b4d97;
+    }
+
+    .nav-blog{
+        position: unset;
+    }
+
+    .post{
+        font-size: 15px;
+    }
+
+    .am4{
+        display: flex;
+        align-items: center;
+        margin: 0 100px;
+    }
+    
+
 }
