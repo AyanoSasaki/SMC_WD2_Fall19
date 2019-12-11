@@ -23,6 +23,26 @@ $(document).ready(function(){
         $(".e-p").toggle();
     });
 
+    $(".ff").click(function(){
+        $(".f-p").toggle();
+    });
+
+    $(".a1").click(function(){
+        $(".ad1-p").toggle();
+    });
+
+    $(".a2").click(function(){
+        $(".ad2-p").toggle();
+    });
+
+    $(".a3").click(function(){
+        $(".ad3-p").toggle();
+    });
+
+    $(".a4").click(function(){
+        $(".ad4-p").toggle();
+    });
+
     $(".donatebutton").on('click', function () {
         alert("You're PAWSOME!");
     });

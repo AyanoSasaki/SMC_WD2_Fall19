@@ -122,6 +122,13 @@ h5{
     text-align: right;
 }
 
+h7{
+    margin: -4px 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 19px;
+    color: #D95877;
+}
+
 p{
     font-size: 2px;
     color: white;
@@ -165,10 +172,6 @@ footer{
 
 .donation-top img{
     width: 100%;
-}
-
-.donate-button1{
-    color: #f0a067;
 }
 
 .running_puppy{
@@ -273,6 +276,7 @@ footer{
 
 .blog-middle{
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .box{
@@ -286,6 +290,7 @@ footer{
     background-color: white;
     padding: 20px;
     margin: -4px 0 0;
+    text-align: left;
 }
 
 .text-box p{
@@ -299,12 +304,51 @@ footer{
 .b-p,
 .c-p,
 .d-p,
-.e-p{
+.e-p,
+.f-p{
     display: none;
+    text-align: left;
 }
 
 .donation-top h2{
     letter-spacing: 0px;
+}
+
+.text-box-adopt{
+    background-color: white;
+    padding: 20px;
+    margin: -4px 0 0;
+    text-align: center;
+}
+
+.text-box-adopt p{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box-adopt{
+    background: black;
+}
+
+.p-info{
+    font-size: 15px;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 20px;
+    color: #F0A167;
+}
+
+.h3-adopt{
+    font-size: 30px;
+    color: #F0A167;
+    margin: 40px 40px 10px;
+}
+
+.adopt-title{
+    text-align: center;
 }
 
 /* Donation box */
@@ -440,6 +484,15 @@ footer{
 
 .readmore{
     display: none;
+}
+
+.adopt-middle{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.adopt-middle img{
+    width: 100%;
 }
 
 
@@ -637,6 +690,11 @@ footer{
         grid-row: 2 / 3 ;
     }
 
+    .ff{
+        grid-column: 3 /4 ;
+        grid-row: 2 / 3 ;
+    }
+
     .a-p{
         display: block;
     }
@@ -696,6 +754,33 @@ footer{
         align-items: center;
         margin: 0 100px;
     }
-    
 
+    .box-adopt{
+
+    }
+
+    .adopt-middle{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 54px 150px;
+        color: #444;
+    }
+    
+    .ad-p{
+        display: none;
+    }
+
+    .h3-adopt {
+        font-size: 55px;
+        margin: 70px 40px 10px;
+    }
+
+    .p-info {
+        font-size: 25px;
+    }
+
+    .ad1-p{
+        display: none;
+    }
 }
